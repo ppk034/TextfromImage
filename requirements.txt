@@ -1,3 +1,5 @@
 streamlit
 vertexai
-pillow
+Pillow
+requests
+google-cloud-storage

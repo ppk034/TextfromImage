@@ -28,7 +28,7 @@ if uploaded_image is not None:
     # Convert the image data to the correct format for model processing
     image_part = Part.from_data(data=image, mime_type="image/jpeg")
 
-   prompt = (
+    prompt = (
     "Analyze the engineering design of the system (either an engine, electronic system, or machine). "
     "If the system is an engine or mechanical system, describe the following: "
     "1. Full specifications, including engine type, size, and key parameters. "
